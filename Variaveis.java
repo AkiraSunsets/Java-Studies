@@ -26,7 +26,12 @@ public class Main {
 
         float variavelFloat = 3.4e+38F; // Obrigatório letra F pra funcionar
         System.out.printf("Valor de float: %f\n", variavelFloat);
-        
-        
+
+        double variavelDouble = 1.7e+308;
+        System.out.printf("Valor de double: %f\n", variavelDouble);
+
+        double variavelTeste = 3.1415678;
+        System.out.printf("Valor da variavel teste: %.3f\n", variavelTeste);
+
     }
 }
