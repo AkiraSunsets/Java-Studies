@@ -33,5 +33,14 @@ public class Main {
         double variavelTeste = 3.1415678;
         System.out.printf("Valor da variavel teste: %.3f\n", variavelTeste);
 
+        //char
+
+        char variavelCaractere = 'A';
+        System.out.printf("Meu caractere é: %c\n",variavelCaractere);
+
+        //boolean
+        boolean variavelBoolean = true;
+        System.out.printf("Meu booleano é %b\n", variavelBoolean);
+
     }
 }
