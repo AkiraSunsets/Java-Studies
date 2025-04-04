@@ -21,5 +21,12 @@ public class Main {
 
         long variavelLong = 9_223_372_036_854_775_807L; //Obrigatório colocar a letra L
         System.out.printf("Tamanho do long: %d\n", variavelLong);
+
+        //Reais
+
+        float variavelFloat = 3.4e+38F; // Obrigatório letra F pra funcionar
+        System.out.printf("Valor de float: %f\n", variavelFloat);
+        
+        
     }
 }
