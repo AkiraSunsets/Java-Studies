@@ -27,5 +27,18 @@ public class Main {
         sobrenome = scanner.nextLine();
         System.out.printf("O meu nome é %s e meu sobrenome é %s", nome,sobrenome); // %s é máscara para string
         scanner.close();
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+        String nome, sobrenome; // Três entradas.
+        int idade;
+        
+        Scanner scanner = new Scanner(System.in);// só declara uma vez
+        System.out.print("Digite seu nome: ");
+        nome = scanner.nextLine();
+        System.out.print("Digite a sua idade: ");
+        idade = scanner.nextInt();
+        scanner.nextLine(); //primeira maneira, colocado para limpar o buffer (vazio)
+        System.out.print("Digite o seu sobrenome: ");
+        sobrenome = scanner.nextLine();
     }
 }
