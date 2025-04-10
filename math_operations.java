@@ -18,5 +18,13 @@ public class Main {
         System.out.println(numero1*numero2); //multiplicação
         System.out.println(numero1/numero2); //divisão
 */
+        double potencia = Math.pow(2,3);  //primeiro argumento é a base, o segundo é o expoente.
+        //pow vem de power, potência. Para pow só é permitido usar double.
+        System.out.println(potencia);
+
+        double raiz = Math.sqrt(4.0); // função para raiz quadrada.
+        System.out.println(raiz);
+
+        
     }
 }
