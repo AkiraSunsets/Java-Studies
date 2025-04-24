@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         //Operadores Lógicos
 
-
         //binários, possuem duas entradas
 
         // And (&&) - quando as duas ou mais entradas são verdadeiras
@@ -22,7 +21,7 @@ public class Main {
         //   0   0   0  - Quando nenhuma for verdadeira, será falso
         //   1   1   1  - Não há diferença se ambos forem verdadeiro, o resultado final será verdadeiro
 
-
+//-------------------------------------------------------------------------
         // unário, inversor lógico
         // Not (!)
 
@@ -30,7 +29,7 @@ public class Main {
         //  0   1
         //  1   falso
 
-
+//--------------------------------------------------------------------------
         // Xor
         // |A| |B| |X|
         // |0| |0| |0|
@@ -39,6 +38,7 @@ public class Main {
         // |1| |1| |0|  - Se ambos estiverem ligados, não irá funcionar
 
 
+//-------------------------------------------------------------------------
         //Exemplos práticos:
 
         boolean condicao1 = true;
