@@ -6,5 +6,13 @@ public class Main {
         System.out.println("A"=="a"); // false, maiusculas e minusculas (Tabela ASCII)
         System.out.println(minhastring == "Akira Sunsets"); //(true)
 
+        //Operadores Relacionais - Interprete como perguntas
+        
+        // == Igualdade
+        // != Diferente de
+        // > Maior que
+        // < Menor que
+        // >= Maior ou igual
+        // <= Menor ou igual
     }
 }
