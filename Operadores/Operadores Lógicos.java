@@ -37,5 +37,19 @@ public class Main {
         // |0| |1| |1|
         // |1| |0| |1|  - Se um estiver ligado, a saída será true
         // |1| |1| |0|  - Se ambos estiverem ligados, não irá funcionar
+
+
+        //Exemplos práticos:
+
+        boolean condicao1 = true;
+        boolean condicao2 = 15<12;
+
+        System.out.println(condicao1);
+        System.out.println(condicao2);
+        System.out.println(condicao1 && condicao2); // falso, pq em && as duas precisam ser verdadeiras (AND)
+        System.out.println(condicao1 || condicao2); // true, pois ao menos uma é verdadeira (OR)
+        System.out.println(!condicao1); // (NOT) - 
+        System.out.println(condicao1^condicao2); // (XOR) - true, Eles possuem condições diferentes
+ 
         }
 }
