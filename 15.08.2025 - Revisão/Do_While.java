@@ -5,10 +5,12 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
         String valor = "";
 
+        //primeira iteração do laço é sempre executada
         do{
             System.out.println("Diga-me algo: ");
             valor = entrada.nextLine();
         } while (!valor.equalsIgnoreCase("algo")); //! serve pra criar um loop que só para quando o usuário escrever a palavra "algo"
-        entrada.close();
+        //demais operações do laço, só são executadas se a condição for verdadeira
+        entrada.close(); //entrada close serve pra fechar o scanner
     }
 }
