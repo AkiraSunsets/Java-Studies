@@ -20,7 +20,7 @@ Aqui você encontrará exemplos, exercícios e pequenos projetos desenvolvidos c
 
 Obs: Não é necessário configurar nenhum build system como Maven ou Gradle. Apenas Java puro.
 
-📚 Conteúdos estudados
+## 📚 Conteúdos estudados
 
 - Sintaxe básica
 
@@ -34,12 +34,12 @@ Obs: Não é necessário configurar nenhum build system como Maven ou Gradle. Ap
 
 - Entre outros...
 
-📌 Objetivo
+## 📌 Objetivo
 
 Este repositório tem fins educacionais e serve como registro do meu aprendizado contínuo em Java.
 Fique à vontade para explorar e até sugerir melhorias!
 
-📄 Licença
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
