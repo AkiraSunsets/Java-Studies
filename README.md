@@ -27,7 +27,7 @@ Os conteúdos estão separados por pastas temáticas:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/AkiraSunsets/java-studies.git
+   git clone https://github.com/AkiraSunsets/Java-Studies.git
 
 2. Abra no IntelliJ IDEA
 
