@@ -25,7 +25,7 @@ public class Main {
             } catch (InputMismatchException error) { //erro do scanner, verifica se foram digitados dados inválidos
                 System.out.println("Opa... Você digitou caracteres inválidos, digite apenas números");
             }
-            scanner.nextLine();
+            scanner.nextLine(); //ele serve pra parar o laço de repetição
         }
         System.out.println(numero);
     }
