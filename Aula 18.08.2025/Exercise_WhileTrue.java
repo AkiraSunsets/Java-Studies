@@ -30,3 +30,37 @@ public class Main {
         System.out.println(numero);
     }
 }
+
+//seccond form
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        //O programa só aceita números e esses números devem ser maior ou igual a 20
+        //caso forem menores ou forem outros tipos de texto, o programa pede para digitar novamente
+        //o programa só encerra quando atender os critérios
+
+        int numero;
+        while (true) { //laço infinito
+            try {
+                System.out.print("Digite um número: ");
+                numero = Integer.parseInt(scanner.nextLine());
+                if (numero<20){
+                    System.out.println("O número que você digitou é menor que 20");
+                    continue;
+                }
+                else { //else é opcional, pq se o número já for menor que o loop vai repetir, então não é necessário
+                    break;
+                }
+
+            } catch (NumberFormatException error) { //erro do scanner, verifica se foram digitados dados inválidos
+                System.out.println("Opa... Você digitou caracteres inválidos, digite apenas números");
+            }
+        }
+        System.out.println(numero);
+    }
+}
