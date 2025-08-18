@@ -14,7 +14,7 @@ public class Main {
         }catch (NumberFormatException | InputMismatchException error){
             System.out.println("Formato incorreto, digite apenas números"); //ao colocar letras, aparecerá esta mensagem e o processo encerra
         }finally { //chamado tanto no final do try tanto do catch, ele garante que o código sempre será executado
-            System.out.println("Finally é sempre executado");
+            System.out.println("Finally é sempre executado"); //Finally é opcional
         }
     }
 }
