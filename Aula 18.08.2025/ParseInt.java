@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String numeroEmTexto = scanner.nextLine();
+        //Wrapper:
+        /*
+        Tipos primitivos são básicos, salvam somente valores
+        Wrappers: são complexos, tem valores e funções
+        Exemplos de wrappers: Integer, Double, Boolean, Character
+        Obs: tipos primitivos são sempre com letras minúsculas. Wrappers iniciam com letra maiúscula
+
+        ParseInt -- Converte strings em números inteiros
+         */
+        int numeroEmInt = Integer.parseInt(numeroEmTexto); //converter número em texto
+        System.out.println(numeroEmInt+18); //somou dois inteiros, #36
+
+    }
+}
