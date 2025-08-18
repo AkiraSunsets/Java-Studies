@@ -8,7 +8,7 @@ public class Main {
             int numero = scanner.nextInt(); //espera receber um número inteiro
             System.out.println(numero);
 
-        } catch (Exception error) { //exception é a classe mãe de todos os erros, //inputMismatchException é o erro do scanner
+        } catch (InputMismatchException error) { //exception é a classe mãe de todos os erros, //inputMismatchException é o erro do scanner
             //caso ele não consiga, o catch identifica o erro e lança uma tentativa
             System.out.println("Digite apenas números inteiros: ");
         }
