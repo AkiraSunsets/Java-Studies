@@ -22,7 +22,7 @@ public class Main {
                     break;
                 }
 
-            } catch (InputMismatchException error) { //erro do scanner
+            } catch (InputMismatchException error) { //erro do scanner, verifica se foram digitados dados inválidos
                 System.out.println("Opa... Você digitou caracteres inválidos, digite apenas números");
             }
             scanner.nextLine();
