@@ -14,9 +14,12 @@ public class Main {
             try {
                 System.out.print("Digite um número: ");
                 numero = scanner.nextInt(); //salva o número
-
+                if (numero<20){
+                    System.out.println("O número que você digitou é menor que 20");
+                    continue; //reiniciar o laço
+                }
                 break;
-                
+
             } catch (InputMismatchException error) { //erro do scanner
                 System.out.println("Opa... Você digitou caracteres inválidos, digite apenas números");
             }
@@ -24,4 +27,4 @@ public class Main {
         }
             System.out.println(numero);
         }
-}
+    }
