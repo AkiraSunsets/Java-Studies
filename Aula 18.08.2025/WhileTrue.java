@@ -16,15 +16,17 @@ public class Main {
                 numero = scanner.nextInt(); //salva o número
                 if (numero<20){
                     System.out.println("O número que você digitou é menor que 20");
-                    continue; //reiniciar o laço
+                    continue;
                 }
-                break;
+                else { //else é opcional, pq se o número já for menor que o loop vai repetir, então não é necessário
+                    break;
+                }
 
             } catch (InputMismatchException error) { //erro do scanner
                 System.out.println("Opa... Você digitou caracteres inválidos, digite apenas números");
             }
             scanner.nextLine();
         }
-            System.out.println(numero);
-        }
+        System.out.println(numero);
     }
+}
