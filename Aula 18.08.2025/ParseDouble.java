@@ -14,9 +14,10 @@ public class Main {
         ParseInt -- Converte strings em números inteiros
          */
         int numeroEmInt = Integer.parseInt(numeroEmTexto); //converter número em texto
+        //ParseDouble - converte String em números do tipo double
         Double numeroEmDouble = Double.parseDouble(numeroEmTexto);
 
-        System.out.println(numeroEmDouble+18);
+        System.out.println(numeroEmDouble+18); //quando soma um int dom double, ele soma em double pra não perder informação
 
     }
 }
