@@ -23,6 +23,8 @@ public class Cadastro {
         System.out.println("Insira sua pretensão salarial(R$): ");
         Double pretensaoSalarial = scanner.nextDouble();
 
+        scanner.nextLine();
+
         System.out.println("Insira seu grau de instrução: ");
         String grauInstrucao = scanner.nextLine();
 
