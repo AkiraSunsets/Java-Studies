@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
+          System.out.println("Funcionários da Empresa");
+          System.out.println("=============================================");
           //Colaborador com 1 parâmetro
           Colaborador colaborador = new Colaborador("Ana Beatriz"); //Instantiation
           System.out.println("Nome do colaborador: " + colaborador.nome);
@@ -17,5 +19,6 @@ public class Main {
           System.out.println("Nome do colaborador: " + colaborador3.nome);
           System.out.println("Edv: " + colaborador3.edv);
           System.out.println("Cargo: " + colaborador3.cargo);
+          System.out.println("=============================================");
     }
 }
