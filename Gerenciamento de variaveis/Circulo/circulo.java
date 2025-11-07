@@ -1,11 +1,24 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
+public class Circulo {
 
-        Circulo circuloVermelho = new Circulo("Vermelho", 2);
-        System.out.printf("A área do circulo %s é de %.2f\n", circuloVermelho.cor, circuloVermelho.calcularArea());
-        Circulo circuloAzul = new Circulo("azul", 3);
-        System.out.printf("A área do circulo %s é de %.2f\n", circuloAzul.cor, circuloAzul.calcularArea());
+    /*
+    * Cor e raio são variaveis dinâmicas, elas mudam
+    * de acordo com o objeto instanciado
+    */
+    String cor;
+    double raio;
+    /*static é usado para definir um valor fixo, ela pertence a uma classe
+      a cada vez que uma instância se referir ao pi, ele sempre usará o mesmo espaço de memória
+      que foi alocado
+    */
+    final static double PI = Math.PI; // em letra maiúsculas são constantes
+    //final não deixa que o valor seja alterado
+
+    public Circulo (String cor, double raio) {
+        this.cor = cor;
+        this.raio = raio;
+    }
+
+    double calcularArea () {
+        return PI * this.raio * this.raio;
     }
 }
