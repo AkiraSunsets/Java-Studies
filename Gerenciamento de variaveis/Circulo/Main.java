@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Circulo circuloVermelho = new Circulo("Vermelho", 2);
-        System.out.printf("A área do circulo %s é de %.2f", circuloVermelho.cor, circuloVermelho.calcularArea());
-        }
+        System.out.printf("A área do circulo %s é de %.2f\n", circuloVermelho.cor, circuloVermelho.calcularArea());
+        Circulo circuloAzul = new Circulo("azul", 3);
+        System.out.printf("A área do circulo %s é de %.2f\n", circuloAzul.cor, circuloAzul.calcularArea());
     }
+}
