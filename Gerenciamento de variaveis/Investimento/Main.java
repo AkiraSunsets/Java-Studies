@@ -10,6 +10,7 @@ public class Main {
         System.out.printf("O investimento de %s está com o saldo de R$%.2f\n", investimentodeAna.nomeDoInvestidor, investimentodeAna.saldoAtual);
         System.out.printf("O investimento de %s está com o saldo de R$%.2f\n", investimentodeNick.nomeDoInvestidor, investimentodeNick.saldoAtual);
         investimentodeAna.rentabilizar();
+        investimentodeNick.rentabilizar();
         System.out.printf("O investimento de %s está com o saldo de R$%.2f\n", investimentodeAna.nomeDoInvestidor, investimentodeAna.saldoAtual);
         System.out.printf("O investimento de %s está com o saldo de R$%.2f\n", investimentodeNick.nomeDoInvestidor, investimentodeNick.saldoAtual);
     }
