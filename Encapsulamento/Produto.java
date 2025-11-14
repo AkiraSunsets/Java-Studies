@@ -30,6 +30,8 @@ public class Produto {
     }
 
     public void setQuantidade(int quantidade){
-        this.quantidade = quantidade;
+        if (this.getQuantidade() > 0) {
+          this.quantidade = quantidade;  
+        }
     }
 }
